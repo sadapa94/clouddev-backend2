@@ -9,9 +9,9 @@ app.use(express.json());
 // MySQL connection config
 // triggering azure deployment
 const db = mysql.createConnection({
-  host: 'studentdb-demo.mysql.database.azure.com',
-  user: 'mysql_admin',
-  password: 'TempPass@123',
+  host: 'studentdb-demo-srinadh.mysql.database.azure.com',
+  user: 'srinadhstudentdb',
+  password: 'Srin@dh9876',
   database: 'studentdb',
   port: 3306,
   ssl: {
